@@ -133,7 +133,7 @@ int main(void)
             break;
 
         /* ========= ② 左偏（右边压线）向左修正 ========= */
-        case 0b00010:  // Out2 = 1
+        case 0b10010:  // Out2 = 1
         case 0b00011:  // Out2 Out1 = 1
             Motor_Set_Speed(BASE_SPEED - TURN_SPEED_LIGHT,
                             BASE_SPEED + TURN_SPEED_LIGHT);
